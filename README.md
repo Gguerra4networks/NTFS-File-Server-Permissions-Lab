@@ -1,9 +1,16 @@
 # Lab 05: NTFS File Server with Terraform, Active Directory, and Group-Based Permissions
 
-🎬 Watch Me Build This Lab!
+##🎬 Watch Me Build This Lab!
 
-https://www.loom.com/share/b5cf618ad25b4d568402785025b5057c
+# https://www.loom.com/share/b5cf618ad25b4d568402785025b5057c
 
+## Downloads
+
+- [SOP (Word) — direct download](https://raw.githubusercontent.com/Gguerra4networks/NTFS-File-Server-Permissions-Lab/main/NTFS_Lab_SOP_Final_Reviewed.docx)
+  
+- [SOP (PDF) — direct download](https://raw.githubusercontent.com/Gguerra4networks/NTFS-File-Server-Permissions-Lab/main/NTFS_Lab_SOP_Final_Reviewed.pdf)
+
+-  [Troubleshooting Patch Notes](./NTFS_SOP_File_Creation_Patch.md)
 
 A hands-on Azure lab that builds a domain-joined Windows file server from scratch using Terraform, then proves that NTFS permissions actually match a real department org chart. Written up so every step is documented, not just clicked through.
 
