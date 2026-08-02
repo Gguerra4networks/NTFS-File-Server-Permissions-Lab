@@ -1,5 +1,10 @@
 # Lab 05: NTFS File Server with Terraform, Active Directory, and Group-Based Permissions
 
+🎬 Watch Me Build This Lab!
+
+https://www.loom.com/share/b5cf618ad25b4d568402785025b5057c
+
+
 A hands-on Azure lab that builds a domain-joined Windows file server from scratch using Terraform, then proves that NTFS permissions actually match a real department org chart. Written up so every step is documented, not just clicked through.
 
 ## What this lab demonstrates
