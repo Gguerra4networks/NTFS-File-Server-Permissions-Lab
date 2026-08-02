@@ -1,4 +1,4 @@
-# Lab 05: NTFS File Server with Terraform, Active Directory, and Group-Based Permissions
+# Lab: NTFS File Server with Terraform, Active Directory, and Group-Based Permissions
 
 ##🎬 Watch Me Build This Lab!
 
