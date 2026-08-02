@@ -1,0 +1,13 @@
+terraform.tfvars
+*.tfvars
+!terraform.tfvars.example
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+.terraform/
+.terraform.lock.hcl
+*.tfplan
+.DS_Store
+Thumbs.db
+
+*.zip

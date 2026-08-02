@@ -1,0 +1,15 @@
+location        = "Central US"
+rdp_source      = "YOUR_PUBLIC_IP/32"   # find yours at whatismyip.com, format 1.2.3.4/32
+# Standard_B2as_v2 and Standard_B2s both failed on a new/trial subscription (zero quota,
+# then zero regional capacity). Standard_D2s_v3 is confirmed working and still cheap.
+# Run `az vm list-usage --location <yourregion> -o table` first if apply fails on SKU errors,
+# look for a family with Limit > 0, then check `az vm list-skus` for actual availability.
+server_vm_size  = "Standard_D2s_v3"
+client_vm_size  = "Standard_D2s_v3"
+# admin_password is NOT set here, use an environment variable instead:
+# PowerShell: $env:TF_VAR_admin_password = "YourStrongPassword!"
+# Min 12 characters, upper + lower + number + symbol.
+# Avoid $ and other regex-special characters in the password, a known bug in older
+# versions of configure-lab.ps1 corrupted passwords containing $ during domain join.
+# This repo's configure-lab.ps1 already has the fix, but keep it in mind if you ever
+# copy this pattern into your own scripts.
